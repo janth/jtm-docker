@@ -1,0 +1,6 @@
+NS=stratus-clay:18078/jmkhael
+VOLUMES = -v /var/run/docker.sock=/var/run/docker.sock
+PORTS = -p 5000:1234
+ENV = \
+  -e USER=jmkhael
+  -e PASSWORD=******

@@ -1,0 +1,6 @@
+AuthType Basic
+AuthName "Restricted site"
+# (Following line optional)
+AuthBasicProvider file
+AuthUserFile "/usr/local/apache2/htpasswd"
+Require valid-user
